@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./DMSans-Italic-VariableFont_opsz\,wght.ttf') format('truetype'); /* Adjust the file path accordingly */
+    src: url('./DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+  * {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: DM Sans, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  html {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  body{
+  color: #fff;
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  background-color: #211A2A;
+  overflow-x: hidden;
+  }
+  
+
+  
