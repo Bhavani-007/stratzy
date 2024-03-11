@@ -9,15 +9,15 @@ import { useState, useEffect } from "react";
 
 const Carousel = () => {
 
-    const [slidesToShow, setSlidesToShow] = useState(4.5); // Default to 3 slides
+    const [slidesToShow, setSlidesToShow] = useState(4.5); // Default to 4.5 slides
 
     useEffect(() => {
         const handleResize = () => {
         const screenWidth = window.innerWidth;
         if (screenWidth <= 600) {
-            setSlidesToShow(2); // If screen width is 600px or less, show 2 slides
+            setSlidesToShow(2); 
         } else if (screenWidth > 600 && screenWidth <=800) {
-            setSlidesToShow(3); // Otherwise, show 3 slides
+            setSlidesToShow(3); 
         } else {
             setSlidesToShow(4.5);
         }
@@ -43,7 +43,7 @@ const Carousel = () => {
         slidesToScroll: 1,
         className: 'jss1497',
         prevArrow: <img src="../assets/leftArrow.svg" alt="Previous"/>,
-        nextArrow: <img src="../assets/rightArrow.svg" alt="Next" />
+        nextArrow: <img src="../assets/rightArrow.svg" alt="Next"/>,
       };
       
 
@@ -59,30 +59,28 @@ const Carousel = () => {
                     <p className="MuiTypography-root jss9999 MuiTypography-body1">Top Gainers</p>
 
                     <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12">
-                        
-                                    
-                                        <Slider {...settings}>
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                            <CarouselSlide />
-                                        </Slider>
-                                    
-                                
+                                   
+                        <Slider {...settings}>
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                            <CarouselSlide />
+                        </Slider>
+                                           
                     </div>
 
                 </div>

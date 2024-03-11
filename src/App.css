@@ -978,6 +978,13 @@
   max-width: 1120px;
 }
 
+@media screen and (max-width:1160px) {
+  .jss1361 {
+    padding: 0rem 4rem 2.4rem 1.5rem;
+    max-width: 1120px;
+  }
+}
+
 
 .carousel-container {
   width: 90%; /* Adjust as needed */

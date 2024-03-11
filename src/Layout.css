@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(168, 224, 234);
+    color: black;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 833px) and (max-width: 1240px) {
+    html {
+      font-size: 14px;
+  }
+  }
+  
+  
+  @media only screen and (min-width: 320px) and (max-width: 832px) {
+    html {
+        font-size: 12px;
+    }
+  }  
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    
+}
+
+.navbar{
+    background-color: rgb(55, 232, 173);
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+.nav-item{
+    padding: 1.8rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height:120vh;
+    width: 100%;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-section-1{
+    display: flex;
+    flex-basis: 50%;
+    background-color: rgb(248, 118, 239);
+    margin-bottom: 2rem;
+}
+
+
+.hero-section-2{
+    display: flex;
+    flex-basis: 50%;
+    background-color: rgb(74, 155, 247);
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-section-1{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        background-color: rgb(248, 118, 239);
+        
+    }
+    
+    
+    .hero-section-2{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        background-color: rgb(74, 155, 247);
+    
+    }
+    
+}
+
+.hero-11, .hero-12, .hero-21, .hero-22{
+    flex-basis: 50%;
+    background-color: rgb(255, 169, 111);
+    padding: 24px;
+    margin: 1rem;
+    max-width: 50%;
+    border-radius: 1.6rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-11, .hero-12, .hero-21, .hero-22{
+        flex-basis: 100%;
+        background-color: rgb(255, 169, 111);
+        padding: 24px;
+        margin: 1rem;
+        max-width: 100%;
+        border-radius: 1.6rem;
+        text-align: center;
+    }
+}
+
+.hero11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.strategies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    height: 130vh;
+    background-color: rgb(139, 226, 152);
+}
+
+.cards-div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 2rem;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .cards-div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        
+    }
+  }
+
+.card{
+    flex-grow: 0;
+    flex-basis: 50%;
+    padding: 0.6rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+.card-content{
+    background-color: rgb(223, 221, 59);
+    border-radius: 1.4rem;
+    height:100%; 
+    padding-top: 1rem;
+}
+
+.view-all-button{
+    width: 18rem;
+    padding: 1.2rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+.carousel{
+    height:30vh;
+    background-color:rgb(89, 203, 248);
+    width: 100%;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
